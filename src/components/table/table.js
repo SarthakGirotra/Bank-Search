@@ -115,7 +115,7 @@ const TableData = ({ data }) => {
                                         const value = data[column.id];
                                         return (
                                             <TableCell key={column.id} align={column.align}>
-                                                {  column.id === "ifsc" ? <Link to={`${data[column.id]}`} style={{ textDecoration: "none", color: "black" }}>{value}</Link> :
+                                                {  column.id === "ifsc" ? <Link to={`Bank-Search/${data[column.id]}`} style={{ textDecoration: "none", color: "black" }}>{value}</Link> :
                                                     column.id === 'fav' ?
 
                                                         <label className="switch">

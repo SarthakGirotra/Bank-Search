@@ -18,14 +18,14 @@ function App() {
         <Search />
 
         <Switch>
-          <Route path="/favs">
-            <Fav />
-          </Route>
-          <Route exact path="/:ifsc" component={Page} />
-
+          <Route exact path="/Bank-Search/favs" component={Fav} />
+          <Route exact path="/Bank-Search/:ifsc" component={Page} />
           <Route path="/Bank-Search">
             <Table data={data} />
           </Route>
+
+
+
         </Switch>
 
       </div>
