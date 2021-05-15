@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Bank-Search/static/css/main.a0e7efc5.chunk.css",
-    "main.js": "/Bank-Search/static/js/main.ea0b0b84.chunk.js",
-    "main.js.map": "/Bank-Search/static/js/main.ea0b0b84.chunk.js.map",
+    "main.js": "/Bank-Search/static/js/main.a2e3e730.chunk.js",
+    "main.js.map": "/Bank-Search/static/js/main.a2e3e730.chunk.js.map",
     "runtime-main.js": "/Bank-Search/static/js/runtime-main.2dfceae0.js",
     "runtime-main.js.map": "/Bank-Search/static/js/runtime-main.2dfceae0.js.map",
-    "static/js/2.c98a06e2.chunk.js": "/Bank-Search/static/js/2.c98a06e2.chunk.js",
-    "static/js/2.c98a06e2.chunk.js.map": "/Bank-Search/static/js/2.c98a06e2.chunk.js.map",
+    "static/js/2.e2364d96.chunk.js": "/Bank-Search/static/js/2.e2364d96.chunk.js",
+    "static/js/2.e2364d96.chunk.js.map": "/Bank-Search/static/js/2.e2364d96.chunk.js.map",
     "index.html": "/Bank-Search/index.html",
     "static/css/main.a0e7efc5.chunk.css.map": "/Bank-Search/static/css/main.a0e7efc5.chunk.css.map",
-    "static/js/2.c98a06e2.chunk.js.LICENSE.txt": "/Bank-Search/static/js/2.c98a06e2.chunk.js.LICENSE.txt"
+    "static/js/2.e2364d96.chunk.js.LICENSE.txt": "/Bank-Search/static/js/2.e2364d96.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2dfceae0.js",
-    "static/js/2.c98a06e2.chunk.js",
+    "static/js/2.e2364d96.chunk.js",
     "static/css/main.a0e7efc5.chunk.css",
-    "static/js/main.ea0b0b84.chunk.js"
+    "static/js/main.a2e3e730.chunk.js"
   ]
 }
