@@ -1,24 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Search from "./components/Search/search"
+import Table from "./components/table/table";
+import Fav from "./components/fav/fav"
+import Page from "./components/page/page"
+import { useSelector } from "react-redux"
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
+  const data = useSelector((state) => state.banks)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Search />
+
+        <Switch>
+          <Route path="/favs">
+            <Fav />
+          </Route>
+          <Route exact path="/:ifsc" component={Page} />
+
+          <Route path="/">
+            <Table data={data} />
+          </Route>
+        </Switch>
+
+      </div>
+    </Router >
   );
 }
 
