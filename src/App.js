@@ -23,7 +23,7 @@ function App() {
           </Route>
           <Route exact path="/:ifsc" component={Page} />
 
-          <Route path="/">
+          <Route path="/Bank-Search">
             <Table data={data} />
           </Route>
         </Switch>

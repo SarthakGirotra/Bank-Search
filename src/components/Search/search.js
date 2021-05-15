@@ -46,7 +46,7 @@ const Search = () => {
 
         <div className="nav">
             <div className="links">
-                <h1>  <Link to="/">Bank Search</Link></h1>
+                <h1>  <Link to="/Bank-Search">Bank Search</Link></h1>
                 <h1> <Link to="/favs">Favs</Link></h1>
             </div>
             <div className="search">
