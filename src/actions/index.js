@@ -13,6 +13,7 @@ export const getBanks = (city) => async (dispatch) => {
             dispatch({ type: 'FETCH_ALL', payload: data })
             localStorage.setItem(city, JSON.stringify(data))
         }
+        dispatch({ type: 'false' })
 
     } catch (error) {
         console.log(error.message)

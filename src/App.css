@@ -1,0 +1,9 @@
+.load{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+}
+.App{
+    height: 100%;
+}

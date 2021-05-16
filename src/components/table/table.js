@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Table from '@material-ui/core/Table';
@@ -38,7 +37,7 @@ const columns = [
     {
         id: 'city',
         label: 'City',
-        minWidth: 170,
+        minWidth: 100,
         align: 'right',
     },
     {
@@ -53,10 +52,14 @@ const columns = [
 const useStyles = makeStyles({
     root: {
         width: '95%',
-        margin: 'auto'
+        margin: 'auto',
+
+
     },
     container: {
         maxHeight: 740,
+        color: 'white',
+
     },
 });
 
@@ -115,7 +118,7 @@ const TableData = ({ data }) => {
                                         const value = data[column.id];
                                         return (
                                             <TableCell key={column.id} align={column.align}>
-                                                {  column.id === "ifsc" ? <Link to={`/Bank-Search/${data[column.id]}`} style={{ textDecoration: "none", color: "black" }}>{value}</Link> :
+                                                {  column.id === "ifsc" ? <Link to={`/Bank-Search/${data[column.id]}`} className="ifsc">{value}</Link> :
                                                     column.id === 'fav' ?
 
                                                         <label className="switch">

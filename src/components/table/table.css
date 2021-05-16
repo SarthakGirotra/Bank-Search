@@ -59,3 +59,7 @@
   .slider.round:before {
     border-radius: 50%;
   }
+  .ifsc{
+    text-decoration: none;
+    color:rgb(40, 124, 180);
+  }

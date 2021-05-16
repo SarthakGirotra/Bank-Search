@@ -2,18 +2,37 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #262a2b;
 }
-
+#demo-simple-select-label{
+    color:white
+}
 .links{
     display: flex;
     flex-direction: row;
     gap:20px;
     width: 25%;
     margin-left: 2.5%;
+    align-items: center;
 }
+.favicon{
+    width:45px;
+    height:auto
+}
+.delicon{
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 30px;
+    height: auto;
+    filter: invert(96%) sepia(5%) saturate(18%) hue-rotate(213deg) brightness(104%) contrast(100%);
+}
+.delicon:hover{
+    cursor: pointer;
+}
+
 .links a{
     text-decoration: none;
-    color: black;
+    color: #09bcc5;
 }
 .search{
     display: flex;
@@ -38,4 +57,8 @@
 input[type="text"]
 {
     font-size:24px;
+}
+#select svg{
+    color:white;
+
 }
