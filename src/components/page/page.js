@@ -35,7 +35,7 @@ function Page({ match }) {
                 <Paper style={{ backgroundColor: "#eeeeee" }} elevation={3}>
                     <h2>{bank[0]?.bank_name}</h2>
                     <h2>Bank ID:{" "}{bank[0]?.bank_id}</h2>
-                    <h3>IFSC:{" "} {bank[0]?.ifsc}</h3>
+                    <h3>IFSC:{" "}{bank[0]?.ifsc}</h3>
                     <h5>{bank[0]?.address}</h5>
                 </Paper>
 
